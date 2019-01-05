@@ -1,0 +1,32 @@
+.nav-link {
+  color: black;
+  font-weight: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+.font-wg {
+  font-weight: 100;
+}
+
+.form-container {
+  height: 30%;
+}
+
+.photoDragNew {
+  position: relative;
+  float: left;
+  width: 10vw;
+  height: 10vw;
+  overflow: hidden;
+  border-radius: 0.3em;
+  border: #0a0a0a solid 0.2vw;
+}
+
+.photUrlNew {
+  position: relative;
+  float: left;
+  width: 100%;
+}

@@ -1,0 +1,152 @@
+#logo {
+  height: 50px;
+}
+
+#container.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15 px;
+  padding-right: 15px;
+}
+
+#nav.container-fluid {
+  background-color: white;
+}
+#body.container-fluid {
+  background-color: #f4f4f4;
+}
+.LoginTraveller {
+  font-size: 14px;
+  position: relative;
+  z-index: 100;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.login .login-header {
+  margin-bottom: 15px;
+  width: 100%;
+}
+#login-container {
+  position: relative;
+  z-index: 100;
+}
+input {
+  z-index: 1;
+}
+.panel-title {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #666;
+  font-size: 22px;
+  font-weight: 300;
+  padding-left: 5%;
+}
+.login-form {
+  width: 100%;
+  padding-bottom: 5%;
+}
+.login-wrapper {
+  padding-left: 0;
+}
+.panel {
+  padding-top: 1%;
+  padding-bottom: 20%;
+}
+.btn-primary {
+  background-color: #ff8a00;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+button.icon-facebook {
+  font-size: 26px;
+  height: 22px;
+  width: 40px;
+  line-height: 1;
+  padding-top: 7px;
+}
+
+.third-party-login-button {
+  position: relative;
+  padding: 5px 10px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  line-height: 2;
+  font-size: 16px;
+  -o-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 2px;
+  width: 100%;
+  max-width: 318px;
+}
+.third-party-login-button.fb-button {
+  background: #2f4f88;
+  border: 1px solid #2f4f88;
+}
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}

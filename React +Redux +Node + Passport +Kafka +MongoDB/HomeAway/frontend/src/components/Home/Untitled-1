@@ -1,0 +1,28 @@
+const PropertyType = new GraphQLObjectType({
+  name: "Property",
+  fields: () => ({
+    available_from: { type: GraphQLString },
+    available_to: { type: GraphQLString },
+    max_guests: { type: GraphQLString },
+    location: { type: GraphQLString }
+  })
+
+
+  const PropertyType = new GraphQLObjectType({
+  name: "Property",
+  fields: () => ({
+    id: { type: GraphQLID },
+    user_id: { type: GraphQLString },
+    available_from: { type: GraphQLString },
+    available_to: { type: GraphQLString },
+    max_guests: { type: GraphQLString },
+    price: { type: GraphQLString },
+    bedrooms: { type: GraphQLString },
+    bathrooms: { type: GraphQLString },
+    sqft: { type: GraphQLString },
+    location: { type: GraphQLString },
+    headLine: { type: GraphQLString },
+    description: { type: GraphQLString },
+    type: { type: GraphQLString }
+  })
+});

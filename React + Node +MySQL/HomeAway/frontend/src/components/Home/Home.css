@@ -1,0 +1,221 @@
+.HeroImage {
+  background-image: url(http://csvcus.homeaway.com/rsrcs/stab-cms-resources/0.10.30/images/homepage/jumbotron/ptaHpNextHeroImage/large.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+.HeroImage__content {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.2) 12%,
+    rgba(0, 0, 0, 0.2) 88%,
+    rgba(0, 0, 0, 0.5)
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.2) 12%,
+    rgba(0, 0, 0, 0.2) 88%,
+    rgba(0, 0, 0, 0.5)
+  );
+}
+.HeroImage__content .HeroImage_effects {
+  transition: opacity 300ms ease-in-out 0s;
+  opacity: 1;
+}
+
+.site-header.site-header--inverse {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  z-index: 1;
+}
+.site-header-tray__backdrop {
+  background-color: #050607;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+}
+
+.site-header-tray__container {
+  background: #f4f4f4;
+  height: 100%;
+  left: -250px;
+  position: fixed;
+  top: 0;
+  -webkit-transition: left 0.5s;
+  transition: left 0.5s;
+  width: 250px;
+  z-index: 2000;
+}
+a {
+  font-weight: 400;
+}
+img.img-responsive {
+  width: 90%;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+a.dropdown-item {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-weight: 100;
+  line-height: 0.01rem;
+  color: #0067db;
+  white-space: nowrap;
+}
+.twitter-typeahead {
+  position: relative;
+  display: inline-block;
+}
+
+#place {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-color: transparent;
+  box-shadow: none;
+  opacity: 1;
+}
+
+#searchKeywords {
+  position: relative;
+  vertical-align: top;
+  background-color: transparent;
+}
+
+#span_status {
+  position: absolute;
+  padding: 0px;
+  border: 0px;
+  height: 1px;
+  width: 1px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  overflow: hidden;
+  clip: rect(0px, 0px, 0px, 0px);
+  white-space: nowrap;
+}
+#dropdown_listbox {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 100;
+  display: none;
+  font-size: 16px;
+}
+
+pre {
+  position: absolute;
+  visibility: hidden;
+  white-space: pre;
+  font-family: Lato, Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-transform: none;
+}
+.HeadLine__text {
+  padding-left: 10%;
+  font-size: 35px;
+  font-family: Lato, Arial, Helvetica Neue;
+}
+.form-inline {
+  padding-left: 10%;
+  margin-bottom: 10%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 56px;
+  padding: 15px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #323f4d;
+  background-image: none;
+  border: 1px solid #d3d8de;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+}
+.js-searchSubmit {
+  border-radius: 30px;
+  min-height: 58px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  background-color: #0067db;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: none;
+}
+.ValueProps {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.ValueProps__list {
+  display: -webkit-box;
+  display: flex;
+  list-style-type: none;
+}
+ol,
+ul {
+  margin: 0 0 16px 16px;
+  padding: 0;
+}
+
+.ValueProps__item {
+  width: 33.33%;
+  text-align: center;
+  color: #fff;
+  font-size: calc(9.567999px - -1 * (1vw - 767px / 100) * 0.6521009603841537);
+}
+
+.ValueProps__title {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: normal;
+  font-size: 1.5em;
+  display: block;
+}
+.ValueProps__blurb {
+  font-size: 0.9vw;
+  display: block;
+}
+.navbar-nav {
+  padding-left: 38%;
+}
+
+.counter {
+  padding-right: 0;
+}
+#listProperty {
+  border-radius: 24px;
+}
+
+.list-property {
+  margin-left: 10%;
+}
